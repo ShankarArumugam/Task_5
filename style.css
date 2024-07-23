@@ -1,0 +1,297 @@
+body {
+    background-color: rgb(138, 200, 179);
+    font-family: 'Garamond', serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.Header1 {
+    color: white;
+    background-image: url(./images/greentree.jpg);
+    display: flex;
+    flex-direction: column;
+    border-radius: 1px;
+    justify-content: center;
+    font-size: 1.7rem;
+    height: 350px;
+    max-block-size: 1400px;
+    line-height: 2.5rem;
+}
+
+.Header1 h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.Header1 h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.Header1 p {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.Aboutus {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px 200px 10px 10px;
+}
+
+.Aboutus1 {
+    background-image: url(./images/greentree.jpg);
+    display: flex;
+    flex-direction: column;
+    border-radius: 1px;
+    background-color: rgb(43, 132, 205);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    justify-content: center;
+    height: 500px;
+    width: 700px;
+}
+
+.Aboutus1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.image {
+    height: 400px;
+    width: 600px;
+}
+
+h3 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h5 {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.Ourworks {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.Ourworks1 {
+    background-image: url(./images/greentree.jpg);
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    border-radius: 1px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    justify-content: center;
+    text-align: left;
+    font-size: 1.7rem;
+    height: 500px;
+    width: 500px;
+}
+
+.Ourworks1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.image1 {
+    height: 200px;
+    width: 500px;
+    margin-top: 50px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+h7 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.Ourworks p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.Services {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px 20px 20px;
+}
+
+.Services1 {
+    background-image: url(./images/greentree.jpg);
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    border-radius: 1px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    justify-content: center;
+    text-align: left;
+    font-size: 1.7rem;
+    height: 650px;
+    width: 500px;
+    line-height: 2.5rem;
+}
+
+.Services1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.imagemain {
+    height: 100px;
+    width: 600px;
+    margin-right: auto;
+}
+
+.imagemain1 {
+    height: 10px;
+    width: 20px;
+    margin-left: 90px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagemain1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.imagemain2 {
+    height: 0px;
+    width: 0px;
+    padding: 205px 0px 10px 290px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagemain2:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+.imagemain3 {
+    height: 0px;
+    width: 0px;
+    padding: 205px 20px 10px 100px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagemain3:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+h8 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+ol {
+    font-size: 1.5rem;
+}
+
+.Enchanter {
+    font-size: 3.5rem;
+    padding-top: 50px;
+    color: white;
+}
+
+.Enchanter .service_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section_container .services_items img {
+    margin-top: 30px;
+    width: 80%;
+    border-radius: 50%;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section_container .services_items img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+.section_container .services_items {
+    width: calc(100% / 3 - 120px);
+}
+
+.services_items .services_text {
+    text-align: center;
+}
+
+.services_items .services_text h11 {
+    margin: 12px 0;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.services_items .services_text p {
+    font-size: 17px;
+}
+
+h9 {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.Footer1 {
+    color: white;
+    background-image: url(./images/greentree.jpg);
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    border-radius: 1px;
+    justify-content: center;
+    font-size: 1.7rem;
+    height: 300px;
+    max-width: 1400px;
+    line-height: 2.5rem;
+}
